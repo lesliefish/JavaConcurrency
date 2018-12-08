@@ -1,8 +1,8 @@
-import synchronization.SynchronizationDemo;
+import deadlockexample.DeadLockDemo;
 
 public class Main {
 
     public static void main(String[] args) {
-        SynchronizationDemo.test();
+        DeadLockDemo.test();
     }
 }
