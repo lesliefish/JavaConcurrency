@@ -2,11 +2,11 @@ package threadlocal;
 
 public class ThreadLocalTestDemo {
     public static void test() {
-        RunableDemo runableDemo = new RunableDemo();
+        RunnableDemo runnableDemo = new RunnableDemo();
 
-        new Thread(runableDemo).start();
-        new Thread(runableDemo).start();
-        new Thread(runableDemo).start();
-        new Thread(runableDemo).start();
+        new Thread(runnableDemo).start();
+        new Thread(runnableDemo).start();
+        new Thread(runnableDemo).start();
+        new Thread(runnableDemo).start();
     }
 }

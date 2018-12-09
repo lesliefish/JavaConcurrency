@@ -1,6 +1,6 @@
 package threadlocal;
 
-public class RunableDemo implements Runnable {
+public class RunnableDemo implements Runnable {
 
     int counter;
     ThreadLocal<Integer> threadLocalCounter = new ThreadLocal<Integer>();
