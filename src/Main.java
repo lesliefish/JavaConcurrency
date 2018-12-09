@@ -1,8 +1,8 @@
-import threadlocalrandom.ThreadLocalRandomTest;
+import lockexamples.lock.LockTestDemo;
 
 public class Main {
 
     public static void main(String[] args) {
-        ThreadLocalRandomTest.test();
+        LockTestDemo.test();
     }
 }
